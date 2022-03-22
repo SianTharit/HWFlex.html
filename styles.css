@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+.header {
+    width: 100%;
+}
+nav {
+    display: flex;
+    padding: 5px;
+    background: #eeee;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.profile {
+    display: flex;
+    /* position: relative; */
+    justify-content: space-around;
+    padding: 10%;
+    min-width: 700px;
+    /* width: 100%; */
+    height: 100%;
+}
+.text-box {
+    /* position: absolute; */
+    /* background-color: aquamarine; */
+    width: 70%;
+    margin-right: 110px;
+    height: 200px;
+    /* left: 148px;
+    top: 228px; */
+}
+.text-box p{
+    margin-top: 20px;
+}
+.button{
+    /* text-decoration: none; */
+    border: 1px solid #ff6464;
+    background-color: #ff6464;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.myPic {
+    /* position: absolute; */
+    /* position: absolute; */
+    width: 30%;
+    height: 250px;
+    /* left: 760px; */
+    /* top: 210px; */
+}
+.myPic img{
+    /* position: absolute; */
+    object-fit: cover;
+    border-radius: 50%;
+    /* background-position: center; */
+    width: 250px;
+    height: 250px;
+    /* left: 760px;
+    top: 210px; */
+}
+.main {
+    background: #edf7fa;
+    padding: 10%;
+    width: 100%;
+}
+.headmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.headmain p{
+    font-size: 22px;
+    line-height: 60px;
+}
+.headmain a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #00a8cc;
+}
+.content-text {
+    display: flex;
+    /* border: 1px solid seagreen; */
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.content-text .box1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    color: #21243d;
+    /* border: 1px solid seagreen; */
+    background: #ffffff;
+}
+.content-text .box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    color: #21243d;
+    /* border: 1px solid seagreen; */
+    background: #ffffff;
+}
+[class^=box] h1{
+    font-size: 26px;
+    line-height: 38px;
+    padding: 10px;
+}
+[class^=box] span{
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px;
+}
+[class^=box] p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+.content {
+    background: #ffffff;
+    /* padding: 10%; */
+    width: 100%;
+}
+
+
